@@ -1,0 +1,96 @@
+/*Libertinus Serif Display*/
+@import url('https://fonts.googleapis.com/css2?family=Libertinus+Serif+Display&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+	font-family: 'Libertinus Serif Display', serif;
+}
+
+body {
+	background-color: rgb(30, 87, 67);
+	margin: 0;
+}
+
+.navbar {
+	width: 100vw;
+}
+
+.welcome-card {
+	width: 350px;
+	padding: 25px 20px;
+	margin: 20px auto;
+	border: 10px solid rgb(227, 227, 227);
+	background-color: rgb(5, 56, 46);
+	text-align: center;
+	color: white;
+}
+
+.description {
+	max-width: 700px;
+	width: 100%;
+	padding: 25px 30px;
+	margin: 20px auto;
+	border: 10px solid rgb(227, 227, 227);
+	background-color: rgb(5, 56, 46);
+	text-align: center;
+	color: white;
+}
+
+/* blog.html */
+.blog-page {
+	background-color: rgb(12, 38, 51);
+}
+.row {
+	display: flex;
+	/* Allows row to fill up space */
+	gap: 30px;
+	/* Gap between column and row  */
+	margin: 20px auto;
+	max-width: 700px;
+}
+
+.blog-page .column-one,
+.blog-page .column-two,
+.blog-page .column-three {
+	flex: 1;
+	border: 5px solid rgb(20, 52, 73);;
+	background: rgb(22, 75, 96);
+}
+
+.blog-page p {
+	color: white;
+}
+
+.blog-card {
+	width: 350px;
+	padding: 25px 20px;
+	margin: 20px auto;
+	border: 10px solid rgb(20, 52, 73);
+	background-color: rgb(22, 75, 96);
+	text-align: center;
+	color: white;
+}
+
+.links {
+	border: 1px solid rgb(63, 137, 186);
+	padding: 40px 0px;
+	position: relative;
+	text-align: center;
+	width: 100%;
+}
+
+.links a {
+	background: rgb(246, 255, 204);
+	border: 1px solid rgb(0, 0, 0);
+	border-radius: 3px;
+	color: rgb(0, 0, 0);
+	display: inline-block;
+	margin: 10px;
+	padding: 14px;
+	text-decoration: none;
+}
+
+.links a:hover {
+	background: rgb(22, 75, 96);
+	border: 1px solid rgb(46, 109, 92);
+	color: rgb(255, 255, 255);
+}
