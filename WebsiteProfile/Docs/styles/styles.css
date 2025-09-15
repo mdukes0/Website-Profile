@@ -35,6 +35,17 @@ body {
 	color: white;
 }
 
+.js-test {
+	text-align: center;
+	color: white;
+	margin: 10px auto;
+}
+
+#test {
+	text-align: center;
+	list-style-position: inside;
+}
+
 /* blog.html */
 .blog-page {
 	background-color: rgb(12, 38, 51);
@@ -55,6 +66,11 @@ body {
 	flex: 1;
 	border: 5px solid rgb(20, 52, 73);;
 	background: rgb(22, 75, 96);
+}
+
+.blog-page .column-two img {
+	max-width: 100%;
+	margin: 10px auto;
 }
 
 .column-one {
@@ -142,11 +158,11 @@ body {
 }
 
 .projects-page .column-left {
-	margin: 10px left;
+	margin: 5px left;
 }
 
 .projects-page .column-right {
-	margin: 10px right;
+	margin: 5px right;
 }
 
 .grid-one {
@@ -157,6 +173,18 @@ body {
 .grid-two {
 	justify-items: right;
 	border-style: double;
+}
+
+.grid-one img {
+	max-width: 100%;
+	margin: 10px auto;
+	height: 300px;
+}
+
+.grid-two img {
+	max-width: 100%;
+	margin: 10px auto;
+	height: 300px;
 }
 
 /* Resource page */
@@ -172,14 +200,14 @@ body {
 }
 
 .rsrcs-page {
-	background-color: rgb(255, 232, 124);
+	background-color: rgb(74, 171, 106);
 }
 
 .rsrcs-page .rsrc-links p {
 	padding: 20px;
 	height: 40px;
 	max-width: 800px;
-	margin: 10px auto;
+	margin: 20px auto;
 	border: 10px solid rgb(163, 255, 117);
 	background: rgb(124, 211, 124);
 	text-align: left;
@@ -209,4 +237,20 @@ body {
 	background: rgb(46, 89, 35);
 	border: 1px solid rgb(163, 255, 117);
 	color: rgb(255, 255, 255);
+}
+
+/* footer */
+.footer {
+	border: 5px dashed white;
+	margin: 10px auto;
+	text-align: center;
+
+}
+
+.footer a {
+	color: rgb(255, 255, 255);
+}
+
+.footer a:hover {
+	color: rgb(0, 128, 75);
 }
